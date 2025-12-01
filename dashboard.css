@@ -1,0 +1,91 @@
+.container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .dashboard-grid {
+            display: grid;
+            gap: 20px;
+        }
+
+        .plant-header {
+            text-align: center;
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .plant-emoji {
+            font-size: 4em;
+            margin-bottom: 10px;
+        }
+
+        .plant-status {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #0e6b35;
+        }
+
+        .gauges-section {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .gauge-card-title {
+            text-align: center;
+
+        }
+
+        .value {
+            font-family: 'Times New Roman';
+            font-size: 15px;
+        }
+
+        progress {
+            width: 250px;
+            height: 10px;
+            border: none;
+            overflow: hidden;
+        }
+
+        progress::-webkit-progress-bar {
+            background: rgb(163, 163, 163);
+            border-radius: 6px;
+        }
+
+        progress::-webkit-progress-value {
+            background: #012f14;
+            border-radius: 6px;
+            ;
+        }
+
+        .recommendations-card {
+            background: #f8f9fa;
+            color: black;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+        }
+
+        .recommendations-list {
+            margin: 10px 0;
+            padding: 8px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 6px;
+        }
+
+
+        .stats-grid {
+            display: flex;
+            text-align: center;
+            gap: 40px;
+            padding: 5px;
+            grid-template-columns: 1fr 1fr 1fr;
+
+        }
