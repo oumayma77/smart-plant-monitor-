@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Plant Monitor</title>
+    <link rel="icon" type="image/png" href="icon (2).png">
+
+  </head>
+
+<body>
+
+    <div class="container">
+        <div class="dashboard-grid">
+
+            <div class="plant-header">
+                <h1>Smart Plant Monitor</h1>
+                <p>Surveillance en temps réel</p>
+                <div class="plant-emoji" id="plantEmoji">🌿</div>
+                <div class="plant-status" id="plantStatus">En bonne santé</div>
+            </div>
+
+
+            <div class="gauges-section">
+                <h3 class="gauge-card-title"> Données Capteurs</h3>
+
+                <div class="gauge">
+                    <div class="gauge-header">
+                        <span class="value"> Humidité </span>
+                        <span class="value" id="moistureValue">65%</span>
+                    </div>
+                    <progress id="moistureGauge" value="65" max="100"></progress>
+                </div>
+
+                <div class="gauge">
+                    <div class="gauge-header">
+                        <span class="value"> Lumière</span>
+                        <span class="value" id="lightValue">45%</span>
+                    </div>
+                    <progress id="lightGauge" value="45" max="100"></progress>
+                </div>
+
+                <div class="gauge">
+                    <div class="gauge-header">
+                        <span class="value"> Température</span>
+                        <span class="value" id="tempValue">22°C</span>
+                    </div>
+                    <progress id="tempGauge" value="50" max="100"></progress>
+                </div>
+            </div>
+
+
+            <div class="recommendations-card">
+                <h3> Recommandations Intelligentes</h3>
+                <div class="recommendations-list" id="recommendationsList">
+                    <p>✅ Toutes les conditions sont optimales</p>
+                </div>
+            </div>
+
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-label">Dernier arrosage</div>
+                    <div class="stat-value" id="lastWatered">2j</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Prochain arrosage</div>
+                    <div class="stat-value" id="nextWatering">1j</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Santé globale</div>
+                    <div class="stat-value" id="healthScore">85%</div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+  </body>
+
+</html>
+
