@@ -35,7 +35,20 @@
 <b> Paramètres Surveillés </b> 
 - Humidité
 - Intensité lumineuse
-- Temperature 
+- Temperature
+
+## Captures d'écrans 
+
+### Dashboard web 
+![Dashboard Interface](dash-interface.png) 
+
+### Sortie Serial ESP32 
+![Serial Monitor Output](serial.png) 
+
+### Afichage  
+![Architecture](capteur.png)
+
+
 
   
 
