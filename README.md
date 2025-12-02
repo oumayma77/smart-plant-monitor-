@@ -46,7 +46,12 @@
 ![Serial Monitor Output](serial.png) 
 
 ### Afichage  
-![Architecture](capteur.png)
+![Architecture](capteur.png) 
+
+### Implémentation Future
+- Intégration Cloud
+- Application mobile pour notifications 
+
 
 
 
